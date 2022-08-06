@@ -57,7 +57,7 @@ header > h1 {
 
 header > p {
     text-align: center;
-    font: lighter 1.2em arial;
+    font: 1.2em arial;
     line-height: 1.3;
     min-width: 320px;
     max-width: 600px;
