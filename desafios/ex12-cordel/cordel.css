@@ -25,7 +25,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: 'passion one', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 11vh;
+    font-size: 10vw;
 }
 
 header > p {
@@ -48,6 +48,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'sriracha', Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -59,9 +61,20 @@ section.imagem {
     color: white;
 }
 
-section.image > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.233);
+section.imagem > p {
+    width: 41vw;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 5px;
+}
+
+section#joaninha {
+    background: url(imagens/background001.jpg) left center no-repeat fixed;
+    background-size: cover;
+}
+
+section#paginas {
+    background: url(imagens/background002.jpg) left center no-repeat fixed;
+    background-size: cover;
 }
 
 footer {
@@ -69,4 +82,5 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
