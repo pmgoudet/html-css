@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+main {
+    background: url(pacote-d013/imagens/frame-iphone.png) center center no-repeat fixed;
+    height: 97vh;
+}
+
+
+iframe {
+    display: block;
+    height: 470px;
+    width: 267px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+
