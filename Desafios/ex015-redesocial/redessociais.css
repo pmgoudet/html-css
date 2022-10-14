@@ -9,6 +9,24 @@ body {
     background-attachment: fixed;
 }
 
+img {
+    height: 7vh;
+    border-radius: 5vh;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.65);
+}
+
+img:hover {
+    transform: scale(1.05); 
+    border: 10px yellow;
+}
+
+nav {
+    margin-top: 11px;
+    margin-right: 3px;
+    text-align: right;
+    height: 1vh;
+    line-height: 5;
+}
 
 main {
     background: url(pacote-d013/imagens/frame-iphone.png) center center no-repeat fixed;
@@ -17,7 +35,6 @@ main {
 
 
 iframe {
-    display: block;
     height: 470px;
     width: 267px;
     position: absolute;
@@ -28,3 +45,10 @@ iframe {
     margin: auto;
 }
 
+
+/**
+- borda amarela do hover com efeitinho
+- barra de rolagem
+- 
+
+**/
