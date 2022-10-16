@@ -35,8 +35,8 @@ main {
 
 
 iframe {
-    height: 470px;
-    width: 267px;
+    height: 510px;
+    width: 269px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -46,9 +46,11 @@ iframe {
 }
 
 
+
+
 /**
 - borda amarela do hover com efeitinho
-- barra de rolagem
+- troca de página bizarra
 - 
 
 **/
