@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    margin: 0px;
 }
 
 img {
@@ -17,20 +18,20 @@ img {
 
 img:hover {
     transform: scale(1.05); 
-    border: 10px yellow;
+    border: 1px solid yellow;
 }
 
 nav {
-    margin-top: 11px;
     margin-right: 3px;
     text-align: right;
-    height: 1vh;
+    height: 0vh;
     line-height: 5;
 }
 
 main {
     background: url(pacote-d013/imagens/frame-iphone.png) center center no-repeat fixed;
-    height: 97vh;
+    background-size: contain;
+    height: 100vh;
 }
 
 
