@@ -22,6 +22,7 @@ article {
 }
 
 article::after {
+    content: 'esse artigo foi escrito por mim, vacilão';
     font-size: 0.5em;
     color: red;
 }
