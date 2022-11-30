@@ -21,21 +21,44 @@ header>h1 {
     text-align: center;
 }
 
-nav {
-    padding: 10px 0px;
+
+i#burguer {
+    background-color: #2d2d2d;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 
-nav>a {
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    padding: 0px;
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none ; /*pra tirar as bolinhas de item*/
+}
+
+menu > ul > li > a {
+    display: block;
     color: white;
     text-decoration: none;
     padding: 10px;
     background-color: #5b5b5b;
     border-top: 2px solid #808080;
+    text-align: center;
 }
 
-nav>a:hover {
+menu > ul > li > a:hover {
     background-color: #808080;
 }
+
 
 main {
     background-color: white;
@@ -46,11 +69,12 @@ main {
     max-width: 770px;
 }
 
-main>h2,p {
-    margin-bottom: 20px;
+main>h2 {
+    padding-bottom: 20px;
 }
 
 main>p {
     text-align: justify;
     text-indent: 20px;
+    padding-bottom: 20px;
 }
